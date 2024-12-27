@@ -945,7 +945,7 @@ const ClientData = () => {
   const [userToDelete, setUserToDelete] = useState(null);
   const [editingUser, setEditingUser] = useState(null);
 
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'http://54.161.153.204:5000';
 
   useEffect(() => {
     fetchUsers();
