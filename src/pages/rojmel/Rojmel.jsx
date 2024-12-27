@@ -89,7 +89,7 @@ const Rojmel = () => {
   const [totalInventory, setTotalInventory] = useState({});
   const [isEditingInventory, setIsEditingInventory] = useState(false);
 
-  const API_BASE_URL = 'http://localhost:5000';
+  const API_BASE_URL = 'http://54.161.153.204:5000';
 
   useEffect(() => {
     const fetchData = async () => {
