@@ -182,7 +182,7 @@ const UdharChallan = () => {
     try {
       const response = await axios({
         method,
-        url: `http://localhost:5000${url}`,
+        url: `http://54.161.153.204:5000${url}`,
         data,
         headers: {
           'Content-Type': 'application/json',
